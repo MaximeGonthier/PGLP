@@ -1,0 +1,15 @@
+Exo 3.1
+
+1. Ne respecte pas SRP car il y a la fois un calcul et un affichage. Or SRP
+veut uniquement des fonctions à propriétés uniques.	Ce sont 2 responsabilités différentes.
+
+2. Si on change cela ca changerait toute la classe employé. De même pour affichage.
+
+3. Il faut changer toute la classe employé. 
+C'est ajouter des méthodes d'affichages dans une classe qui n'y est pas destinée.
+
+Exo 3.3
+
+1.	Le robot statique ne peut pas avancer, donc pas la peine d'ajouter une méthode avancer(). 
+Ne respecte pas LSP. On peut faire en sorte que robot soit un cas particulier de robot statique.
+
