@@ -13,3 +13,17 @@ Exo 3.3
 1.	Le robot statique ne peut pas avancer, donc pas la peine d'ajouter une méthode avancer(). 
 Ne respecte pas LSP. On peut faire en sorte que robot soit un cas particulier de robot statique.
 
+Exo 3.4
+
+1.	Il faut des interfaces petites et adaptées au besoin précis du client.
+ Ici on a 4 interfaces en meme temps, il faudrait les séparer.
+ 
+2.	Cela nous force a changer simple printer alors que la méthode fax n'est meme pas implementer.
+
+3. public class SimplePrinter implements fax,copy,scan {}
+
+Exo 3.5
+
+1. Ici, on dépends d'un affichage alors qu'on se trouve dans un haut niveau d'abstraction.
+Il faudrait faire une interface de Métier pour pouvoir ensuite faire un affichage dans une autre classe.
+Tout doit être rendu abstrait.
