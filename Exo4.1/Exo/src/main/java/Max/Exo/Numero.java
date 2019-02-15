@@ -8,8 +8,7 @@ public class Numero {
 	public Numero() {
 	}
 
-	public int getNumero() {
-		return Numero;}
+	
 	public void setNumero(int numero) {
 		Numero = numero;}
 
@@ -18,6 +17,11 @@ public class Numero {
 		this.Indicatif = indicatif;
 		this.Numero = Num;
 		return this;
+	}
+	
+	public int getNumero()
+	{
+		return this.Numero;
 	}
 	
 	public void afficher() {
