@@ -18,6 +18,10 @@ public class SaisieRPN {
                 // et on va stocker le resultat dans la pile
                 case "":
                     scanner.next();
+                case "q":
+                	MR.quit();
+                case "u":
+                	MR.undo();
                 case "+":
                     MR.calcul(Operation.PLUS); //appel d'une fonction de calcul de MoteurRPN sur l'opérateur PLUS
                     break;

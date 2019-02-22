@@ -2,7 +2,7 @@
 import java.util.EmptyStackException;
 import java.util.Stack;
 
-public class MoteurRPN {
+public class MoteurRPN implements Interpreteur {
 	public Stack<Double> pile;
 	
 	// Constructeur initialisant la pile vide
@@ -31,6 +31,18 @@ public class MoteurRPN {
 			System.out.print(this.pile + "\n");
 			return this.pile;
 		}
+	}
+
+	@Override
+	public void quit() {
+		System.exit(1);
+		
+	}
+
+	@Override
+	public void undo() {
+		pile.pop();
+		
 	}
 }
 	

@@ -1,6 +1,6 @@
 
 public interface Interpreteur {
 
-	public void execute();
+	public void quit();
 	public void undo();
 }
