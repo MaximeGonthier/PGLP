@@ -1,0 +1,8 @@
+target/
+.classpath
+.settings/
+bin/
+.project
+pglp/
+data.save
+derby.log
