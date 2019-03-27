@@ -7,9 +7,14 @@ public class ingredient implements moza {
 		this.nom = nom;
 		this.cout = cout;
 	}
-	
-	public String print(){
-		System.out.print("je suis un ingredient");
-		return null;
+	public String print() {
+		return this.nom;
+		//urn null;
 	}
+	
+	public int getprix() {
+		return this.cout;
+	}
+	
+	
 }

@@ -15,9 +15,20 @@ public class preparation implements moza {
 	public String print() {
 		String s="{";
 		for(int i=0;i<contenu.size();i++) {
-			s = contenu.get(i).print() + s;
+			s = contenu.get(i).print() + " et " + s;
 		}
 		s+="}";
 		return s;
+	}
+	
+	public String calculcout() {
+		int calcul = 0;
+		String s;
+		for(int i=0;i<contenu.size();i++) {
+			calcul+= contenu.get(i).getprix();
+		}
+		s = "Le prix de la preparation est de : " + calcul;
+		return s;
+		
 	}
 }

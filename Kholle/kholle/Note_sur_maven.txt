@@ -1,0 +1,4 @@
+Je suis l'étudiant du groupe 1 qui vous avez appellé car 
+les projets maven ne fonctionnaient pas sur la version eclipse du cartable numérique
+
+J'ai donc mis dans le dossier le pom.xml que j'avais créer qui contient la création de la javadoc et du .jar
